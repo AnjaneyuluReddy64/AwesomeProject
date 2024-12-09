@@ -1,7 +1,7 @@
 import {View, Text, FlatList} from 'react-native';
 import React from 'react';
 
-const PropsDisplay = (props: any) => {
+const PropsChaild = (props: any) => {
   const {fruits} = props;
 
   const renderItem = ({item}: {item: any}) => (
@@ -20,4 +20,4 @@ const PropsDisplay = (props: any) => {
   );
 };
 
-export default PropsDisplay;
+export default PropsChaild;

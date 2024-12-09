@@ -1,6 +1,7 @@
 import {View, Text} from 'react-native';
 import React from 'react';
-import PropsDisplay from '../PropsDisplay';
+import PropsDisplay from './PropsChaild';
+
 const fruits = [
   {id: '1', name: 'Apple'},
   {id: '2', name: 'Banana'},
@@ -13,7 +14,8 @@ const fruits = [
   {id: '9', name: 'Kiwi'},
   {id: '10', name: 'Papaya'},
 ];
-const PropsData = () => {
+
+const PropsExample = () => {
   return (
     <View>
       <Text>List of Fruits</Text>
@@ -22,4 +24,4 @@ const PropsData = () => {
   );
 };
 
-export default PropsData;
+export default PropsExample;

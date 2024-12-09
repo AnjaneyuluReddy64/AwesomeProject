@@ -1,11 +1,10 @@
+import {View, Text} from 'react-native';
 import React from 'react';
-import {Button, View, Text} from 'react-native';
 
-const DetailsScreen = ({navigation}) => {
+const DetailsScreen = () => {
   return (
-    <View style={{flex: 1, justifyContent: 'center', alignItems: 'center'}}>
-      <Text>Details Screen</Text>
-      <Button title="Go back" onPress={() => navigation.goBack()} />
+    <View>
+      <Text>DetailsScreen</Text>
     </View>
   );
 };
